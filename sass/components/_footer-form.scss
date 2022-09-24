@@ -14,6 +14,7 @@
     margin-bottom: 20px;
 }
 
+
 .footer-form_btn {
     font-family: var(--main-font);
     font-weight: 700;
@@ -32,6 +33,11 @@
     margin-left: 12px;
     cursor: pointer;
 }
+&:hover,
+&:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .footer-form_icon {
     fill: #ffffff;
@@ -46,10 +52,4 @@
     background-color: #2F303A;
     padding-left: 16px;
     color: var(--title-text-color);
-}
-
-.footer-form_btn:hover,
-.footer-form_btn:focus {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

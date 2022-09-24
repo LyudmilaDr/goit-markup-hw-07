@@ -47,8 +47,8 @@
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form_user-input:hover,
-.form_user-input:focus {
+&:hover,
+&:focus {
     border: 1px solid var(--accent-color);
 
 }
@@ -64,13 +64,11 @@
     align-items: center;
 }
 
-.form_user-input:hover+.icon-user,
-.form_user-input:focus+.icon-user {
+.form_user-input:hover+ &,
+.form_user-input:focus+ &{
     fill: #2196F3;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
-
 .form_user-coment {
     width: 100%;
     padding: 12px 16px;
@@ -79,8 +77,7 @@
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.2);
 }
-
-.form_user-coment::placeholder {
+&::placeholder {
     font-family: var(--main-font);
     font-size: 12px;
     line-height: 1.16;
@@ -125,6 +122,9 @@
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.form_input-checkbox:checked+.icon-user-vector & {
+    opacity: 0;
+}
 .icon-checked {
     opacity: 0;
     border: 1px solid #2196F3;
@@ -132,13 +132,10 @@
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form_input-checkbox:checked+.icon-user-vector .icon-unchecked {
-    opacity: 0;
-}
-
-.form_input-checkbox:checked+.icon-user-vector .icon-checked {
+.form_input-checkbox:checked+.icon-user-vector & {
     opacity: 1;
 }
+
 
 .form_input-checkbox:focus+.icon-user-vector {
     outline: 2px solid var(--accent-color);
@@ -149,8 +146,6 @@
 .form_link {
     color: var(--accent-color);
 }
-
-
 
 .form_button {
     font-family: var(--main-font);
@@ -168,7 +163,7 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form_button:hover,
-.form_button:focus {
+&:hover,
+&:focus {
     background-color: #188CE8;
 }
