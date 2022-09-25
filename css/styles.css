@@ -1,19 +1,17 @@
-:root {
-  /* Fonts*/
+:root{  
+   /**Fonts */
  --main-font: 'Roboto', sans-serif;
  --secondary-font: 'Raleway', sans-serif;
+/* Text-color */
+ --primmaty-text-color: #212121;
+ --title-text-color: #ffffff;
+ --text-color: #757575;
+/* Background-color */
+ --accent-color: #2196F3;
+ --primmaty-bg-cl: #F5F5F5;
+ --accent-bg-cl: #2F303A;
 
-    /* Text color*/
-  --primmaty-text-color: #212121;
-  --title-text-color: #ffffff;
-  --text-color: #757575;
-  --accent-color: #2196F3;
-
-  /* Backgroundcolor*/
-  --primmaty-bg-cl: #F5F5F5;
-  --accent-bg-cl: #2F303A;
 }
-
 .page {
   font-family:var(--main-font);
   font-size:16px;
@@ -152,7 +150,7 @@ align-items: center;
   margin-right: 50px;
 }
 
-.icon-all {
+.header_icon {
 fill: currentColor;
  margin-right:10px ;
 }
@@ -162,13 +160,13 @@ fill: currentColor;
   text-decoration: none;
   color:var(--text-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
-
-&:hover,
-&:focus {
+.header_all:hover,
+.header_all:focus {
   color:var(--accent-color );
-} 
-
+ 
+}
 /**
   |============================
   | Slogan
@@ -223,7 +221,7 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   pointer-events:none;
   visibility: hidden;
 }
-.button-modal{
+.modal_button{
 position:absolute;
 top:8px;
 right:8px;
@@ -238,7 +236,7 @@ height:30px;
 background-color:transparent;
 cursor: pointer;
 }
-.button-modal-icon:hover {
+.modal_button--decor:hover {
 fill:#2196F3;
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -268,8 +266,8 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
- &:hover,
- &:focus {
+ .button:hover,
+ .button:focus {
   background-color:#188CE8;
 } 
 /**
@@ -285,6 +283,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom:4px;
 
 }
+
 .form_title{
   font-family:var(--main-font);
     font-weight: 700;
@@ -550,7 +549,7 @@ margin-right: auto;
  font-weight:400; 
  margin-bottom:10px;
 }
-.nero_title-meta{
+.nero_container{
 padding:30px;
 
 }
@@ -629,7 +628,7 @@ align-items: center;
   fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-&:hover {
+.holder_all:hover {
   fill:var(--accent-color) ;
   border:1px solid var(--accent-color);
 } 
@@ -653,8 +652,8 @@ align-items: center;
   background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
- &:focus,
- &:hover {
+ .buttons_btn:focus,
+ .buttons_btn:hover {
   background-color: var(--accent-color);
   color:var(--title-text-color);
   border-radius:4px;

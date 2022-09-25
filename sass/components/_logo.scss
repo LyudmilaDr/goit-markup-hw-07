@@ -1,20 +1,21 @@
 .logo {
-    font-family: var(--secondary-font);
+    font-family: $secondary-font;
     text-decoration: none;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: var(--accent-color);
+    color: $accent-color;
+
+
+     &_special {
+     color: $primmaty-text-color;
+    }
+
+    &_special--color {
+     color:$title-text-color;
+    }
 }
 
 .header_logo {
- margin-right: 93px;
-}
-
-.logo_special {
-    color: var(--primmaty-text-color);
-}
-
-.logo_special--color {
-    color: var(--title-text-color);
-}
+    margin-right: 93px;
+   }

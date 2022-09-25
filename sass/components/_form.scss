@@ -45,13 +45,14 @@
     padding-left: 40px;
     outline: none;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-&:hover,
-&:focus {
-    border: 1px solid var(--accent-color);
 
-}
+     &:hover,
+     &:focus {
+      border: 1px solid var(--accent-color);
+
+     }
+    }
 
 .icon-user {
     position: absolute;
@@ -62,12 +63,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
 
-.form_user-input:hover+ &,
-.form_user-input:focus+ &{
-    fill: #2196F3;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+     .form_user-input:hover+ &,
+     .form_user-input:focus+ &{
+       fill: #2196F3;
+       transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 .form_user-coment {
     width: 100%;
@@ -76,20 +78,22 @@
     resize: none;
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.2);
-}
-&::placeholder {
-    font-family: var(--main-font);
-    font-size: 12px;
-    line-height: 1.16;
-    cursor: pointer;
-    color: rgba(117, 117, 117, 0.5);
 
-}
+     &::placeholder {
+      font-family: var(--main-font);
+      font-size: 12px;
+      line-height: 1.16;
+      cursor: pointer;
+      color: rgba(117, 117, 117, 0.5);
 
-.form_user-coment:hover,
-.form_user-coment:focus {
-    border: 1px solid var(--accent-color);
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     }
+
+
+     &:hover,
+     &:focus {
+        border: 1px solid var(--accent-color);
+        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     }
 }
 
 .form_label-coment {
@@ -120,20 +124,22 @@
 .icon-unchecked {
     opacity: 1;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.form_input-checkbox:checked+.icon-user-vector & {
-    opacity: 0;
+
+    .form_input-checkbox:checked+.icon-user-vector & {
+      opacity: 0;
+    }
 }
 .icon-checked {
     opacity: 0;
     border: 1px solid #2196F3;
     border-radius: 2px;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.form_input-checkbox:checked+.icon-user-vector & {
-    opacity: 1;
+
+    .form_input-checkbox:checked+.icon-user-vector & {
+      opacity: 1;
+    }
 }
 
 
@@ -161,9 +167,9 @@
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-&:hover,
-&:focus {
+     &:hover,
+     &:focus {
     background-color: #188CE8;
+    }
 }

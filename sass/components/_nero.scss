@@ -1,51 +1,47 @@
 .nero {
     background: #F5F4FA;
-}
 
-.nero_caption {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    margin-bottom: 50px;
-}
+    &_caption {
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 1.16;
+     text-align: center;
+     margin-bottom: 50px;
+    }
 
-.nero_title {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-    margin-bottom: 13px;
-    margin-left: auto;
-    margin-right: auto;
-}
+    &_title {
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.18;
+     margin-bottom: 13px;
+     margin-left: auto;
+     margin-right: auto;
+    }
 
-.nero_meta {
-    color: var(--text-color);
-    font-weight: 400;
-    margin-bottom: 10px;
-}
+    &_meta {
+     color: var(--text-color);
+     font-weight: 400;
+     margin-bottom: 10px;
+    }
 
-.nero_title-meta {
-    padding: 30px;
+    &_container {
+     padding: 30px;
+    }
 
-}
-
-.nero_item {
-    font-weight: 400;
-    background-color: var(--title-text-color);
-    text-align: center;
-    border-radius: 1px;
-    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    &_item {
+     font-weight: 400;
+     background-color: var(--title-text-color);
+     text-align: center;
+     border-radius: 1px;
+     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
         0px 1px 1px 0px rgba(0, 0, 0, 0.14),
         0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-
-}
-
-.nero_item:not(:last-child) {
-    margin-right: 30px;
-}
-
-.nero_img {
-    display: block;
-    max-width: 100%;
+    }
+    &_item:not(:last-child) {
+     margin-right: 30px;
+    }
+    &_img {
+     display: block;
+     max-width: 100%;
+    }
 }

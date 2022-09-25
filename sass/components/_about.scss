@@ -21,11 +21,11 @@
 }
 
 .about_text {
-    font-family: var(--main-font);
+    font-family: $main-font;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.74;
-    color: var(--text-color);
+    color: $text-color;
 
 }
