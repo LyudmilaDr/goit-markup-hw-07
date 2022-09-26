@@ -1,7 +1,7 @@
 .nero {
     background: #F5F4FA;
 
-    &_caption {
+    &__caption {
      font-weight: 700;
      font-size: 36px;
      line-height: 1.16;
@@ -9,7 +9,7 @@
      margin-bottom: 50px;
     }
 
-    &_title {
+    &__title {
      font-weight: 500;
      font-size: 16px;
      line-height: 1.18;
@@ -18,17 +18,17 @@
      margin-right: auto;
     }
 
-    &_meta {
+    &__meta {
      color: var(--text-color);
      font-weight: 400;
      margin-bottom: 10px;
     }
 
-    &_container {
+    &__container {
      padding: 30px;
     }
 
-    &_item {
+    &__item {
      font-weight: 400;
      background-color: var(--title-text-color);
      text-align: center;
@@ -37,10 +37,10 @@
         0px 1px 1px 0px rgba(0, 0, 0, 0.14),
         0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     }
-    &_item:not(:last-child) {
+    &__item:not(:last-child) {
      margin-right: 30px;
     }
-    &_img {
+    &__img {
      display: block;
      max-width: 100%;
     }

@@ -7,15 +7,15 @@
     color: $accent-color;
 
 
-     &_special {
+     &__special {
      color: $primmaty-text-color;
     }
 
-    &_special--color {
+    &__special--color {
      color:$title-text-color;
     }
 }
 
-.header_logo {
+.header__logo {
     margin-right: 93px;
    }

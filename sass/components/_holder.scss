@@ -1,4 +1,4 @@
-.holder_caption {
+.holder__caption {
     font-family:$main-font;
     color: $primmaty-text-color;
     font-size: 36px;
@@ -9,11 +9,11 @@
 
 }
 
-.holder_item:not(:last-child) {
+.holder__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.holder_all {
+.holder__all {
     fill: #AFB1B8;
     display: flex;
     justify-content: center;

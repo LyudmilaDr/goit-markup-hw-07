@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
 
-    &_item--dec {
+    &__item--dec {
      position: relative;
      color:$accent-color;
      text-decoration: none;
@@ -19,7 +19,7 @@
           background-color: #2196F3;
         }
     }
-    &_item {
+    &__item {
       font-size: 14px;
       text-decoration: none;
       color:$primmaty-text-color;
@@ -30,7 +30,7 @@
           color:$accent-color;
         }
     }
-    &_link:not(:last-child) {
+    &__link:not(:last-child) {
       margin-right: 50px;
     }
 }

@@ -7,15 +7,15 @@
     background-color: $accent-bg-cl;
 
 
-   &_section {
+   &__section {
     padding: 0;
    }
 
-    &_link-type {
+    &__link-type {
      margin-top: 20px;
     }
 
-    &_list {
+    &__list {
      text-decoration: none;
      color: currentColor;
      list-style: none;
@@ -28,7 +28,7 @@
        }
      }
 
-    &_type {
+    &__type {
      color: $title-text-color;
      text-decoration: none;
      font-style: normal;
@@ -42,7 +42,7 @@
      }
 
 
-     &_all {
+     &__all {
        font-style: normal;
        font-weight: 400;
        font-family: $main-font;
@@ -56,7 +56,7 @@
           color: #188CE8;
          }
     }
-     &_title {
+     &__title {
      text-transform: uppercase;
      font-family: $main-font;
      font-weight: 700;
@@ -67,16 +67,16 @@
      margin-bottom: 20px;
     }
 
-     &_container {
+     &__container {
       display: flex;
       align-items: baseline;
     }
 
-     &_special {
+     &__special {
        margin-right: 70px;
      }
 
-     &_link-icons {
+     &__link-icons {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -96,13 +96,13 @@
           box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
           }
      }
-     &_item-icons:not(:last-child) {
+     &__item-icons:not(:last-child) {
         margin-right: 10px;
      }
-     &_item:not(:last-child) {
+     &__item:not(:last-child) {
        margin-right: 30px;
      }
-     &_container-form {
+     &__container-form {
        margin-left: auto;
      }
 }

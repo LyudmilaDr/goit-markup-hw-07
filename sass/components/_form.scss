@@ -1,4 +1,4 @@
-.form_label {
+.form__label {
     display: flex;
     justify-content: start;
     text-align: center;
@@ -6,7 +6,7 @@
 
 }
 
-.form_title {
+.form__title {
     font-family: var(--main-font);
     font-weight: 700;
     font-size: 20px;
@@ -19,7 +19,7 @@
     letter-spacing: 0.03em;
 }
 
-.form_conteiner {
+.form__conteiner {
     position: relative;
     margin-bottom: 10px;
 }
@@ -28,7 +28,7 @@
     padding: 3px;
 }
 
-.form_user {
+.form__user {
     font-family: var(--main-font);
     font-weight: 400;
     font-size: 12px;
@@ -37,7 +37,7 @@
     text-transform: capitalize;
 }
 
-.form_user-input {
+.form__user-input {
     width: 100%;
     height: 40px;
     border-radius: 4px;
@@ -65,13 +65,13 @@
     align-items: center;
 
 
-     .form_user-input:hover+ &,
-     .form_user-input:focus+ &{
+     .form__user-input:hover+ &,
+     .form__user-input:focus+ &{
        fill: #2196F3;
        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 }
-.form_user-coment {
+.form__user-coment {
     width: 100%;
     padding: 12px 16px;
     outline: none;
@@ -96,7 +96,7 @@
      }
 }
 
-.form_label-coment {
+.form__label-coment {
     display: flex;
     justify-content: start;
     text-align: center;
@@ -104,7 +104,7 @@
 
 }
 
-.form_user-span {
+.form__user-span {
     font-family: var(--main-font);
     font-weight: 400;
     font-size: 14px;
@@ -114,7 +114,7 @@
 
 }
 
-.form_label-checkbox {
+.form__label-checkbox {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,7 +126,7 @@
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
-    .form_input-checkbox:checked+.icon-user-vector & {
+    .form__input-checkbox:checked+.icon-user-vector & {
       opacity: 0;
     }
 }
@@ -137,23 +137,23 @@
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
-    .form_input-checkbox:checked+.icon-user-vector & {
+    .form__input-checkbox:checked+.icon-user-vector & {
       opacity: 1;
     }
 }
 
 
-.form_input-checkbox:focus+.icon-user-vector {
+.form__input-checkbox:focus+.icon-user-vector {
     outline: 2px solid var(--accent-color);
     outline-offset: 1px;
     border-radius: 2px;
 }
 
-.form_link {
+.form__link {
     color: var(--accent-color);
 }
 
-.form_button {
+.form__button {
     font-family: var(--main-font);
     font-weight: 700;
     font-size: 16px;

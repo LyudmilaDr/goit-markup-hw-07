@@ -3,7 +3,7 @@
     align-items: center;
 
 
-   &_title {
+   &__title {
     display: block;
     font-family: $main-font;
     font-weight: 700;
@@ -13,7 +13,7 @@
     color: $title-text-color;
     margin-bottom: 20px;
    }
-   &_input {
+   &__input {
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -22,13 +22,13 @@
     padding-left: 16px;
     color: var(--title-text-color);
    }
-   &_icon {
+   &__icon {
     fill: #ffffff;
     margin-left: 10px;
    }
 
 
-   &_btn {
+   &__btn {
     font-family:$main-font;
     font-weight: 700;
     font-size: 16px;

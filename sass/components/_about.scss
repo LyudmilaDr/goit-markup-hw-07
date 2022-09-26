@@ -1,4 +1,4 @@
-.about_box {
+.about__box {
     width: 270px;
     height: 120px;
     background-color: #F5F4FA;
@@ -9,18 +9,18 @@
 }
 
 
-.about_item:not(:last-child) {
+.about__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.about_subtitle {
+.about__subtitle {
     text-transform: uppercase;
     font-size: 14px;
     line-height: 1.14;
     margin-bottom: 10px;
 }
 
-.about_text {
+.about__text {
     font-family: $main-font;
     font-style: normal;
     font-weight: 400;
